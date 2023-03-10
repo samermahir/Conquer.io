@@ -3,18 +3,22 @@ import { useState, useEffect } from "react";
 import CSVUpload from "./components/CSVUpload";
 import "./App.css";
 
+function Map({markers}){
+  return <>
+  <h1> THIS IS MAP</h1>
+  {markers.map(m => <div className="marker placeholder">{m.Latitude} {m.Longitude}</div>)}
+  </>
+
+}
+
 function App() {
-  // const [count, setCount] = useState(0);
-
-  // //test api call for proxy
-
-  // useEffect(() => {
-  //   fetch("/api/test")
-  //     .then((r) => r.json())
-  //     .then((data) => console.log(data));
-  // }, []);
+  const [markers, setMarkers] = useState([]);
   return (
-    <CSVUpload />
+    <>
+
+    <CSVUpload setMarkers={setMarkers}/>
+    <Map markers={markers}/>
+    </>
   );
 }
 
