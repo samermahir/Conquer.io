@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 // test api route for proxy in dev, can delete later
 app.get("/api/test", (req, res) => {
-  res.send({message: "yo"});
+  res.send({ message: "yo" });
 });
 // turn on routes
 app.use(routes);
