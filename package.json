@@ -13,5 +13,9 @@
     "license": "ISC",
     "devDependencies": {
         "concurrently": "^7.6.0"
+    },
+    "dependencies": {
+        "papaparse": "^5.4.0",
+        "sequelize": "^6.29.2"
     }
 }
