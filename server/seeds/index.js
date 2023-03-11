@@ -1,6 +1,6 @@
 const seedGyms = require('./seeds.js');
 
-const sequelize = require('../config/index');
+const sequelize = require('../config/connection');
 
 const seedGym = async () =>{
   await sequelize.sync({ force: true});
