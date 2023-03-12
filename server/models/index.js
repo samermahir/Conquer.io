@@ -1,7 +1,7 @@
 const CRM = require('./CRM');
 
 
-// CRM.hasMany(CRM, { foreignKey: 'crm_id' });
+CRM.hasMany(CRM, { foreignKey: 'crm_id' });
 
 
 
