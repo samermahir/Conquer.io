@@ -12,10 +12,15 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/leaflet": "^1.9.2",
         "concurrently": "^7.6.0"
     },
     "dependencies": {
+        "leaflet": "^1.9.3",
         "papaparse": "^5.4.0",
+        "react-csv": "^2.2.2",
+        "react-leaflet": "^4.2.1",
+        "react-router-dom": "^6.9.0",
         "sequelize": "^6.29.2"
     }
 }
