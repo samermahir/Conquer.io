@@ -1,7 +1,8 @@
-import Papa from "papaparse"
+import Papa from "papaparse";
 export const csvFunction = (updateState) => {
   const nameData = [];
-  const stageData = [];
+  const stageNumData = [];
+  const stageNameData = [];
   const addressData = [];
   const latData = [];
   const lngData = [];
@@ -14,13 +15,14 @@ export const csvFunction = (updateState) => {
       // console.log(results.data[0].Address);
       for (let i = 0; i < results.data.length; i++) {
         nameData.push(results.data[i].Name);
-        stageData.push(results.data[i].Stage);
+        stageNumData.push(results.data[i].StageNumber);
+        stageNameData.push(results.data[i].StageName);
         addressData.push(results.data[i].Address);
         latData.push(results.data[i].Latitude);
         lngData.push(results.data[i].Longitude);
       }
       console.log(results);
-      updateState(results.data)
+      updateState(results.data);
     },
   });
 };
