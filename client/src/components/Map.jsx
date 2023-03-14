@@ -5,6 +5,7 @@ import { MapContainer, Marker, TileLayer, useMap, Popup } from "react-leaflet";
 const Map = ({ markers }) => {
 
   const position = [33.6846, -117.8265];
+   
 
   return (
     <div>
@@ -33,7 +34,7 @@ function MapInner({ markers }) {
     <>
       {markers.map((m) => (
         <Marker position={[m.Latitude, m.Longitude]}>
-          <Popup> {m.Name} <br></br> {m.Stage}
+          <Popup> {m.Name} <br /> {m.StageName}
           </Popup>
         </Marker>
       ))}

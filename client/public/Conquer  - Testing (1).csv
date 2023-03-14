@@ -1,0 +1,64 @@
+ID,Name,StageNumber,StageName,Address,Zip,City,State,Latitude,Longitude
+1,Rock Solid Warrior,1,Cleaning,6109 NC-55 #125,27526,Fuquay-Varina,NC,35.59271,-78.75662
+2,The Climb (Bentonville),1,Cleaning,16730 House & Hahl Rd,77433,Cypress,TX,29.727252,-95.619607
+3,The Spot Bouldering Gym (Denver),1,Cleaning,1235 Delaware St,80204,Denver,CO,39.735811,-104.99309
+4,The Spot Bouldering Gym (Golden),1,Cleaning,1391 Brickyard Rd,80403,Golden,CO,39.7784,-105.235168
+5,The Spot Climbing Gym (Louisville),1,Cleaning,1754 Dogwood St,80027,Louisville,CO,39.965784,-105.116939
+6,Rock Spot (Peace Dale),1,Cleaning,1174 Kingstown Road,02879,Peace Dale,RI,41.451027,-71.497523
+7,Ubergrippen Indoor Climbing Crag (Denver),1,Cleaning,3690 Bilberry St,80109,Castle Rock,CO,39.401214,-104.887405
+8,Adventure Rock WKP,1,Cleaning,613 S 2nd St,53204,Milwaukee,WI,43.024905,-87.913034
+9,The Front Climbing Club (South Main) See salt talk,1,Cleaning,4140 S Main St,84107,Millcreek,UT,40.681833,-111.891467
+10,Alta Climbing and Fitness (Gilbert) KEYSTONE,1,Cleaning,3193 S Ranch House Ct,85297,Gilbert,AZ,33.289782,-111.692768
+11,Boulders Climbing Gym (East),1,Cleaning,3964 Commercial Ave,53714,Madison,WI,43.108568,-89.317773
+12,Vertical Dreams - Nashua,1,Cleaning,25 E Otterson St,03060,Nashua,NH,42.754442,-71.459802
+13,Planet Rock Climbing Gym,1,Cleaning,1103 W 13 Mile Rd,48071,Madison Heights,MI,42.519126,-83.117029
+14,MetroRock (Newburyport),1,Cleaning,40 Parker St,01950,Newburyport,MA,42.801489,-70.880145
+15,Inner Peaks (South End) KEYSTONE,1,Cleaning,2220 South Tryon Street,28203,Charlotte,NC,35.209409,-80.867771
+16,Climbmax Climbing (the River),1,Cleaning,173 Amboy Rd,28806,Asheville,NC,35.567607,-82.569544
+17,Rock Spot (South Boston),1,Cleaning,30 Old Colony Ave,02127,Boston,MA,42.33745,-71.056663
+18,Ciba Climbing,2,Initial Inquiry,4066 E Monsanto Dr,85650,Sierra Vista,AZ,31.49907,-110.255903
+19,Treadstone Columbus,2,Initial Inquiry,4209 Milgen Rd,31907,Columbus,GA,32.512073,-84.925669
+20,Vertical Ventures,2,Initial Inquiry,116 18th St S,33712,St. Petersburg,FL,27.769538,-82.657475
+21,Climbmax Climbing (Downtown),2,Initial Inquiry,43 Wall St,28801,Asheville,NC,35.594739,-82.555992
+22,Stone Age Rock Gym,2,Initial Inquiry,195 Adams St,06042,Manchester,CT,41.789403,-72.550108
+23,The Edge Rock Gym (Melbourne),2,Initial Inquiry,200 West Dr,32904,Melbourne,FL,28.105344,-80.691563
+24,Progression Climbing,2,Initial Inquiry,1713 Legion Rd,27517,Chapel Hill,NC,35.937331,-79.019675
+25,Onsight Rock Gym,2,Initial Inquiry,5335 Western Ave,37921,Knoxvill,TN,35.976124,-84.008445
+26,Rogue Rock Gym,3,Sample Sent,3001 Samike Dr,97501,Medford,OR,42.295608,-122.840724
+27,Turner Hall Climbing Gym,3,Sample Sent,1034 Vel R. Phillips Ave,53203,Milwaukee,WI,43.043781,-87.915523
+28,Central Rock (Cambridge),3,Sample Sent,127 Smith Place,02138,Cambridge,MA,42.393844,-71.150424
+29,Bouldering Project (Salt Lake),3,Sample Sent,660 S 400 W Suite 600,84101,Salt Lake City,UT,40.754947,-111.902868
+30,Urban Krag Climbing Center,3,Sample Sent,125 Clay Street,45402,Dayton,OH,39.755351,-84.182335
+31,Climbing New Heights,3,Sample Sent,54 General Motors Access Rd,25403,Martinsburg,WV,39.456903,-77.972754
+32,The Gravity Vault (Flemington),3,Sample Sent,17A Minneakoning Rd,08822,Flemington,NJ,40.531172,-74.850422
+33,Iron City Boulders,3,Sample Sent,143 51st St.,15201,Pittsburgh,PA,40.479849,-79.956879
+34,Boulders Climbing Gym (Downtown),3,Sample Sent,129 S Carroll St,53703,Madison,WI,43.072903,-89.38382
+35,Whetstone Climbing,4,Negotiating,220 Smokey St,80525,Fort Collins,CO,40.507237,-105.073898
+36,Seattle Bouldering Project (Fremont and Upper Walls ),4,Negotiating,3535 Interlake Ave N,98103,Seattle,WA,47.65022,-122.341742
+37,Milton Rock Gym,4,Negotiating,45 S Front ST,17847,Milton,PA,41.019451,-76.85538
+38,The Cliffs (Gowanus),4,Negotiating,242 Butler St,11217,Brooklyn,NY,40.681417,-73.985562
+39,Central Rock (Manhattan),4,Negotiating,21 West End Ave,10069,New York,NY,40.772621,-73.989975
+40,Touchstone Climbing (WAREHOUSE),4,Negotiating,822 Anthony St,94710,Berkeley,CA,37.85173,-122.292178
+41,Climb Asylum,4,Negotiating,2285A Harrison Ave,92113,San Diego,CA,32.700095,-117.135033
+42,Rock Shop,4,Negotiating,1965 Folwer St,99352,Richland,WA,46.28569,-119.28446
+43,Half Moon Bouldering,5,Invoice Sent - Closed,124 N 85th St,98103,Seattle,WA,47.691119,-122.357331
+44,Elevation Rock Gym,5,Invoice Sent - Closed,1780 N 200 E,84341,North Logan,UT,41.763788,-111.828019
+45,"Rock Mill Climbing, Yoga & Fitness",5,Invoice Sent - Closed,677 Carroll St,44304,Akron,OH,41.075481,-81.497564
+46,Risen Rock Climbing Gym,5,Invoice Sent - Closed,1060 Chinaberry Dr,71111,Bossier City,LA,32.583674,-93.730688
+47,Triangle Rock Club (5 gyms),5,Invoice Sent - Closed,1010 Martin Luther King Jr Pkwy Suite 400,27713,Durham,NC,35.949029,-78.924721
+48,The Edge Halfmoon,5,Invoice Sent - Closed,1544 US-9,12065,Clifton Park,NY,42.842168,-73.752036
+49,The Boulder Yard,5,Invoice Sent - Closed,5714 Industry Lane Unit E,21704,Frederick,MD,39.390648,-77.416241
+50,Top Out Climbing,5,Invoice Sent - Closed,26332 Ferry Court,91350,Santa Clarita,CA,34.409582,-118.508837
+51,Flowstone Climbing,5,Invoice Sent - Closed,1411 W State St,92373,Redlands,CA,34.055104,-117.204984
+52,North Mass Boulder,6,Unresponsive - Email Remarketing,1411 Roosevelt Ave,46201,Indianapolis,IN,39.785285,-86.134875
+53,Central Rock (Watertown),6,Unresponsive - Email Remarketing,74 Acton Steet,02472,Watertown,MA,42.36951,-71.198704
+54,The Cliffs (Dumbo),6,Unresponsive - Email Remarketing,99 Plymouth St,11201,Brooklyn,NY,40.703954,-73.989257
+55,Bloc Yard Bouldering Gym,6,Unresponsive - Email Remarketing,233 E Lyons Ave,99208,Spokane,WA,47.719216,-117.406383
+56,Evo Rock & Fitness Portland,6,Unresponsive - Email Remarketing,65 Warren Ave,04103,Portland,ME,43.689141,-70.299294
+57,Brevard Rock Gym,6,Unresponsive - Email Remarketing,240 S Broad St Unit B,28712,Brevard,NC,35.231416,-82.736025
+58,Planet Rock,7,Lost - Not Interested,82 Aprill Dr C,48103,Ann Arbor,MI,42.283198,-83.80849
+59,Philadelphia Rock Gym (Wyncote) See east falls,7,Lost - Not Interested,827 Glenside Avenue #200,19095,Wyncote,PA,40.097657,-75.144178
+60,Escalade Rock Climbing (PTC),7,Lost - Not Interested,125 Depot Ct,30269,Peachtree City,GA,33.438427,-84.605347
+61,Escalade Rock Climbing Gym (Kennesaw),7,Lost - Not Interested,3694 Kennesaw S Industrial Dr NW,30144,Kennesaw,GA,34.040631,-84.6009
+62,Weatherford's,7,Lost - Not Interested,3009 E Cervantes St,32503,Pensacola,FL,30.424649,-87.181094
+63,North Summit Climbing Gym,7,Lost - Not Interested,481 Bushkill Plaza Ln #9665,18091,Wind Gap,PA,40.830074,-75.305159
