@@ -1,0 +1,6 @@
+ID,Name,FullAddress,Latitude,Longitude,Address,Zip,City,State,StageName,StageNumber,Stage Names,Stage Numbers,
+1,House,"15000 Sonny Circle, Irvine, CA, 92604",33.6871574,-117.7774418,15000 Sonny Circle,92604,Irvine,CA,Lead,1,Lead,1,"**Note - If you have more than 7 stages, your pins will NOT plot"
+2,Apartment,"6400 Spectrum, Irvine, CA, 92618",33.6528961,-117.7534525,6400 Spectrum,92618,Irvine,CA,Attempted Contact,2,Attempted Contact,2,**Note - You must fill the Stage Names in the Red Box in order to populate the stage numbers in the blue column
+3,House,"1 Roseleaf, Irvine, CA, 92620",33.723537,-117.7464425,1 Roseleaf,92620,Irvine,CA,Contract Out,3,Contract Out,3,
+4,House,"2 Tiara, Irvine, CA, 92614",33.6794466,-117.82473,2 Tiara,92614,Irvine,CA,Escrow,4,Escrow,4,
+5,House,"1 Dandelio, Irvine, CA, 92620",33.7209507,-117.7433925,1 Dandelio,92620,Irvine,CA,Closed,5,Closed,5,
