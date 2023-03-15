@@ -7,7 +7,7 @@
 //     database: ''
 //   });
 
-// router.get('/users', (req, res) => {
+// router.get('/userData', (req, res) => {
 //     const sql = 'SELECT * FROM users';
   
 //     connection.query(sql, (err, result) => {
@@ -19,7 +19,7 @@
 //     });
 //   });
 
-//   router.post('/users', (req, res) => {
+//   router.post('/userData', (req, res) => {
 //     const userData = req.body;
 //     const sql = 'INSERT INTO users SET ?';
   
