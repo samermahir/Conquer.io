@@ -1,6 +1,6 @@
 import { latLngBounds } from "leaflet";
 import React from "react";
-import { MapContainer, Marker, TileLayer, useMap, Popup } from "react-leaflet";
+import { MapContainer, Marker, TileLayer, useMap, Popup, ZoomControl } from "react-leaflet";
 
 // import { markerColor } from "../utils/marker";
 
@@ -13,13 +13,18 @@ const Map = ({ markers }) => {
    
 
   return (
+    <>
     <div>
       <h1>Map</h1>
-      <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />;
+      <MapContainer center={position} zoom={13} scrollWheelZoom={false} >
+        <TileLayer 
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />;
         <MapInner markers={markers} />
       </MapContainer>
     </div>
+    </>
+
   );
 };
 
@@ -41,7 +46,7 @@ function MapInner({ markers }) {
   return (
 
     <>
-    <MarkerClusterGroup chunkedLoading>
+    {/* <MarkerClusterGroup chunkedLoading> */}
       {markers.map((m) => {
        return <Marker
        icon={m.icon}
@@ -50,7 +55,7 @@ function MapInner({ markers }) {
          </Popup>
        </Marker>
       })}
-    </MarkerClusterGroup>
+    {/* </MarkerClusterGroup> */}
     </>
 
   );
