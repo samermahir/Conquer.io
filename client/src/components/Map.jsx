@@ -1,7 +1,7 @@
 import { latLngBounds } from "leaflet";
 import React from "react";
 import { MapContainer, Marker, TileLayer, useMap, Popup } from "react-leaflet";
-
+// import { markerColor } from "../utils/marker";
 const Map = ({ markers }) => {
 
   const position = [33.6846, -117.8265];
@@ -29,15 +29,22 @@ function MapInner({ markers }) {
       })
       map.fitBounds(bounds, {animate:true, easeLinearity:10, duration:10000})
     }
+    console.log("MARKERS", markers)
   }, [markers]);
+  console.log(markers)
+
   return (
     <>
-      {markers.map((m) => (
-        <Marker position={[m.Latitude, m.Longitude]}>
-          <Popup> {m.Name} <br /> {m.StageName}
-          </Popup>
-        </Marker>
-      ))}
+    <MarkerClusterGroup chunkedLoading>
+      {markers.map((m) => {
+       return <Marker
+       icon={m.icon}
+       position={[m.Latitude, m.Longitude]}>
+         <Popup> {m.Name} <br /> {m.StageName}
+         </Popup>
+       </Marker>
+      })}
+    </MarkerClusterGroup>
     </>
   );
 }
