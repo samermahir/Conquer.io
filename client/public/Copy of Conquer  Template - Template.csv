@@ -1,0 +1,13 @@
+ID,Name,FullAddress,Latitude,Longitude,Address,Zip,City,State,StageNumber,StageName,,
+1,Home,"65 Palatine, Irvine, CA 92612",33.6704403,-117.8484385,65 Palatine,92612,Irvine,CA,1,Cleaning,Stage #,Stage Name
+2,Home,"25 Palatine, Irvine, CA 92612",33.6691157,-117.8487052,25 Palatine,92612,Irvine,CA,2,Initial Query,1,Cleaning
+3,Home,"45 Palatine, Irvine, CA 92612",33.6701066,-117.8465926,45 Palatine,92612,Irvine,CA,3,Sample Sent,2,Initial Query
+4,Home,"7725 Gateway, Irvine, CA 92618",33.6572273,-117.7509649,7725 Gateway,92618,Irvine,CA,4,Negotiating,3,Sample Sent
+5,Business,"7700 Gateway, Irvine, CA 92618",33.6572914,-117.7510467,7700 Gateway,92618,Irvine,CA,5,Closed,4,Negotiating
+,,,,,,,,,,,5,Closed
+,,,,,,,,,,,6,Unresponsive
+,,,,,,,,,,,7,Lost
+,,,,,,,,,,,,
+,,,,,,,,,,,"**Note - If you have more than 8 stages, your pins will NOT plot",
+,,,,,,,,,,,"In order to get the Lat/Lon for the pins to work,",
+,,,,,,,,,,,Get Extension for GeoCode by Awesome Table,

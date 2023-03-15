@@ -16,7 +16,7 @@ const CSVUpload = ({setMarkers}) => {
       <button onClick={() => markers()} id="uploadfile">
         Upload File
       </button>
-      <h2>If you need a template, please download <a href="../public/template.csv" download><span>here</span></a> </h2>
+      <h2>If you need a template, please download <a href="https://docs.google.com/spreadsheets/d/1uXEmve_ChTv3w5yqDQH0fF-3yyruKvZeqq01coq7AyA/edit?usp=sharing" download><span>here</span></a> </h2>
       
     </div>
   );
