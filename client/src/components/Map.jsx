@@ -1,6 +1,7 @@
 import { latLngBounds } from "leaflet";
 import React from "react";
 import { MapContainer, Marker, TileLayer, useMap, Popup } from "react-leaflet";
+import MarkerClusterGroup from 'react-leaflet-cluster';
 
 const Map = ({ markers }) => {
 
@@ -31,14 +32,15 @@ function MapInner({ markers }) {
     }
   }, [markers]);
   return (
-    <>
+    <MarkerClusterGroup
+    chunkedLoading>
       {markers.map((m) => (
         <Marker position={[m.Latitude, m.Longitude]}>
           <Popup> {m.Name} <br /> {m.StageName}
           </Popup>
         </Marker>
       ))}
-    </>
+    </MarkerClusterGroup>
   );
 }
 
