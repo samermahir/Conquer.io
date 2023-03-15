@@ -28,14 +28,17 @@ router.get('/crm/:id', (req, res) => {
   });
   
 router.post('/crm', (req, res) => {
-    const { user_id, business_name, address, zipcode, geocodes, sales_pipeline_stage } = req.body;
+    const { Name,StageNumber,StageName,Address,Zip,City,State,Latitude,Longitude } = req.body;
     CRM.create({
-      User_Id: user_id,
-      Business_Name: business_name,
-      Address: address,
-      Zipcode: zipcode,
-      Geocodes: geocodes,
-      Sales_Pipeline_Stage: sales_pipeline_stage
+      Name: Name,
+      StageNumber: StageNumber,
+      StageName: StageName,
+      Address: Address,
+      Zip: Zip,
+      City: City,
+      State: State,
+      Latitude: Latitude,
+      Longitude: Longitude,
     })
       .then(() => {
         res.send('CRM data added...');
@@ -48,14 +51,17 @@ router.post('/crm', (req, res) => {
   
 router.put('/crm/:id', (req, res) => {
     const id = req.params.id;
-    const { user_id, business_name, address, zipcode, geocodes, sales_pipeline_stage } = req.body;
+    const { Name,StageNumber,StageName,Address,Zip,City,State,Latitude,Longitude } = req.body;
     CRM.update({
-      User_Id: user_id,
-      Business_Name: business_name,
-      Address: address,
-      Zipcode: zipcode,
-      Geocodes: geocodes,
-      Sales_Pipeline_Stage: sales_pipeline_stage
+      Name: Name,
+      StageNumber: StageNumber,
+      StageName: StageName,
+      Address: Address,
+      Zip: Zip,
+      City: City,
+      State: State,
+      Latitude: Latitude,
+      Longitude: Longitude,
     }, {
       where: { ID: id }
     })
