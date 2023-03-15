@@ -1,4 +1,7 @@
 import Papa from "papaparse";
+import { markerColor } from "./marker";
+
+
 export const csvFunction = (updateState) => {
   const nameData = [];
   const stageNumData = [];
@@ -6,6 +9,7 @@ export const csvFunction = (updateState) => {
   const addressData = [];
   const latData = [];
   const lngData = [];
+  const final = []
   // const uploadconfirm = document.getElementById('uploadconfirm').
   Papa.parse(document.getElementById("uploadfile").files[0], {
     header: true,
@@ -20,9 +24,18 @@ export const csvFunction = (updateState) => {
         lngData.push(results.data[i].Longitude);
         stageNameData.push(results.data[i].StageName);
         stageNumData.push(results.data[i].StageNumber);
+        final.push({
+          Name: results.data[i].Name,
+          Address: results.data[i].Address,
+          Latitude: results.data[i].Latitude,
+          Longitude: results.data[i].Longitude,
+          StageName: results.data[i].StageName,
+          StageNumber: results.data[i].StageNumber,
+          icon: markerColor(results.data[i])
+        })
       }
-      console.log(results);
-      updateState(results.data);
+      console.log("FINAL", final);
+      updateState(final);
     },
   });
 };
