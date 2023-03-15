@@ -4,12 +4,14 @@ import CSVUpload from "./components/CSVUpload";
 import "./App.css";
 // import Auth from "./components/Auth"
 import Map from "./components/Map";
-
+import Title from "./components/Title";
 
 function App() {
   const [markers, setMarkers] = useState([]);
   return (
+
     <>
+    <Title />
 
     <CSVUpload setMarkers={setMarkers}/>
     <Map markers={markers} />

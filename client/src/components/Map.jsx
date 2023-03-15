@@ -1,7 +1,12 @@
 import { latLngBounds } from "leaflet";
 import React from "react";
 import { MapContainer, Marker, TileLayer, useMap, Popup } from "react-leaflet";
+
 // import { markerColor } from "../utils/marker";
+
+import MarkerClusterGroup from 'react-leaflet-cluster';
+
+
 const Map = ({ markers }) => {
 
   const position = [33.6846, -117.8265];
@@ -34,6 +39,7 @@ function MapInner({ markers }) {
   console.log(markers)
 
   return (
+
     <>
     <MarkerClusterGroup chunkedLoading>
       {markers.map((m) => {
@@ -46,6 +52,7 @@ function MapInner({ markers }) {
       })}
     </MarkerClusterGroup>
     </>
+
   );
 }
 
