@@ -47,39 +47,6 @@ const CRM = sequelize.define('CRM', {
     type: DataTypes.DECIMAL(11,8),
     allowNull: false
   },
-
-// CRM.init(
-//  {
-//     ID: {
-//       type: Sequelize.INTEGER,
-//       primaryKey: true,
-//       autoIncrement: true
-//     },
-//     User_Id: {
-//       type: Sequelize.INTEGER,
-//       allowNull: false
-//     },
-//     Business_Name: {
-//       type: Sequelize.STRING,
-//       allowNull: false
-//     },
-//     Address: {
-//       type: Sequelize.STRING,
-//       allowNull: false
-//     },
-//     Zipcode: {
-//       type: Sequelize.STRING,
-//       allowNull: false
-//     },
-//     Geocodes: {
-//       type: Sequelize.STRING,
-//       allowNull: false
-//     },
-//     Sales_Pipeline_Stage: {
-//       type: Sequelize.STRING,
-//       allowNull: false
-//     }
-//     },
 },
     {
         sequelize,
