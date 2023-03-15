@@ -5,6 +5,7 @@ import "./App.css";
 // import Auth from "./components/Auth"
 import Map from "./components/Map";
 import Title from "./components/Title";
+// import Legend from "./components/Legend";
 
 function App() {
   const [markers, setMarkers] = useState([]);
@@ -15,6 +16,7 @@ function App() {
 
     <CSVUpload setMarkers={setMarkers}/>
     <Map markers={markers} />
+    {/* <Legend /> */}
     </>
   );
 }
