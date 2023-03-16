@@ -1,9 +1,11 @@
 const router = require('express').Router();
 
-const crmRoutes = require('./api/crmRoutes');
-// const apiRoutes = require('./api');
-// Set up routes here
+const apiRoutes = require('./api');
 
-router.use('/api', crmRoutes);
+
+router.use('/api', apiRoutes);
+
+
+
 
 module.exports = router;
