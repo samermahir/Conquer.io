@@ -11,8 +11,8 @@ const Dashboard = () => {
         <>
         <div className="bg-neutral-100 h-screen w-screen overflow-hidden flex flex-row ">
             <Navbar />
-            <div className="flex flex-col w-full h-full">
-            <Title />
+            <div className="flex flex-col w-full h-full text-center">
+            <Title/>
             <CSVUpload setMarkers={setMarkers}/>
             <Map markers={markers} />
             <Legend StageNames={markers}/>
