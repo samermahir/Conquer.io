@@ -9,9 +9,7 @@ import {
   ZoomControl,
 } from "react-leaflet";
 
-// import { markerColor } from "../utils/marker";
-
-import MarkerClusterGroup from "react-leaflet-cluster";
+// import { markerColor } from "../utils/marker"
 
 const Map = ({ markers, filters }) => {
   const position = [33.6846, -117.8265];
