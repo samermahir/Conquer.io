@@ -6,26 +6,31 @@ import Legend from "./Legend";
 import CSVUpload from "./CSVUpload";
 
 const Dashboard = () => {
-    const [markers, setMarkers] = useState([]);
-    return (
-        <>
-        <div className="bg-neutral-100 h-screen w-screen overflow-hidden flex flex-row ">
-            <Navbar />
-            <div className="flex flex-col w-full h-full text-center">
-            <Title/>
-            <CSVUpload setMarkers={setMarkers}/>
-            <Map markers={markers} />
-            <Legend StageNames={markers}/>
-            </div>
+  const [markers, setMarkers] = useState([]);
+  const [filters, setFilters] = useState({});
+  return (
+    <>
+      <div className="bg-neutral-100 h-screen w-screen overflow-hidden flex flex-row ">
+        <Navbar />
+        <div className="flex flex-col w-full h-full text-center overflow-scroll">
+          <Title />
+          <CSVUpload setMarkers={setMarkers} />
+          <Map markers={markers} filters={filters} />
+          <Legend
+            StageNames={markers}
+            onClickHandler={(e, a) => {
+              setFilters({
+                StageName: a,
+              });
+            }}
+          />
         </div>
-
-        </>
-
-    );
+      </div>
+    </>
+  );
 };
 
-
-export default Dashboard
+export default Dashboard;
 
 /*{users.map((user, index) => (
                         <tr key={user.id}>
