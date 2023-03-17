@@ -16,6 +16,7 @@
         "concurrently": "^7.6.0"
     },
     "dependencies": {
+        "bulma": "^0.9.4",
         "leaflet": "^1.9.3",
         "papaparse": "^5.4.0",
         "react-csv": "^2.2.2",

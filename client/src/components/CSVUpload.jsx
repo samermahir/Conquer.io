@@ -1,14 +1,11 @@
 import React from "react";
 import { csvFunction } from "../utils/csvfunction.js";
-import { markerColor } from "../utils/marker";
-
 
 
 const CSVUpload = ({setMarkers}) => {
 
   const markers = () => {
     csvFunction(setMarkers)
-    markerColor(setMarkers)
   }
   return (
     <div>
