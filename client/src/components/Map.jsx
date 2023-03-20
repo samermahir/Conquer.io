@@ -17,10 +17,8 @@ const Map = ({ markers, filters }) => {
   return (
     <>
       <div>
-        <h1>Map</h1>
-
         <MapContainer
-          style={{ minHeight: "80vh" }}
+          style={{ height: "50vh", width: "100%" }}
           center={position}
           zoom={13}
           scrollWheelZoom={false}
