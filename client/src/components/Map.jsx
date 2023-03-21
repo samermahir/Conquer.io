@@ -18,7 +18,7 @@ const Map = ({ markers, filters }) => {
     <>
       <div>
         <MapContainer
-          style={{ height: "50vh", width: "100%" }}
+          style={{ height: "64vh", width: "100%" }}
           center={position}
           zoom={13}
           scrollWheelZoom={false}
