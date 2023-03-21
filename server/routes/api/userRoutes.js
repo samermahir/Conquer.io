@@ -3,17 +3,18 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 
-router.post('/', async (req, res) => {
+router.post('/signup', async (req, res) => {
   try {
     const newUser = await User.create({
       username: req.body.username,
-         email: req.body.email,
+      email: req.body.email,
       password: req.body.password,
     });
 
     req.session.save(() => {
       req.session.userId = newUser.id;
       req.session.username = newUser.username;
+      req.session.email = newUser.email;
       req.session.loggedIn = true;
 
       res.json(newUser);
@@ -41,7 +42,7 @@ router.post('/login', async (req, res) => {
     const validPassword = user.checkPassword(req.body.password);
     console.log(validPassword);
 
-  
+
     if (!validPassword) {
       res.status(400).json({ message: 'No user account found!' });
       return;
@@ -49,6 +50,7 @@ router.post('/login', async (req, res) => {
 
     req.session.save(() => {
       req.session.userId = user.id;
+      req.session.email = user.email;
       req.session.username = user.username;
       req.session.loggedIn = true;
 
@@ -59,6 +61,18 @@ router.post('/login', async (req, res) => {
     res.status(400).json({ message: 'No user account found!' });
   }
 });
+
+router.get('/me', async (req, res) => {
+  if (req.session.loggedIn) {
+    res.json({
+      userId: req.session.userId,
+      email: req.session.email,
+      username: req.session.username
+    })
+  } else {
+    res.json(null)
+  }
+})
 
 
 

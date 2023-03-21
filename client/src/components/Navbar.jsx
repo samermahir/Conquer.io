@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FcHome, FcOpenedFolder, FcImport, FcMenu } from "react-icons/fc";
 import { Link } from "react-router-dom";
+import { useAtomValue } from "jotai";
+import { userAtom } from "../utils/state";
 
 const Home = () => {
   const menus = [
@@ -9,6 +11,7 @@ const Home = () => {
     { name: "Logout", link: "/", icon: FcImport },
   ];
   const [open, setOpen] = useState(true);
+
   return (
     <section className="flex gap-6">
       <div
